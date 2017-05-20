@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Header from './src/components/Header';
 
 const App = () => (
-    <Text>Sup World</Text>
+    <Header />
 );
 
 //AppRegistry.registerComponent('albums', () => App);
